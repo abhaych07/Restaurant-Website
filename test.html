@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Website</title>
+  </head>
+  <style>
+    html,
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      box-shadow: 0px 2px 5px grey;
+    }
+
+    ul {
+      margin: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 100px;
+      padding-left: 80px;
+      align-items: center;
+    }
+    .lines {
+      height: 20px;
+      width: 20px;
+    }
+    .part1 {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 100px;
+    }
+    .part1 .hero img {
+      height: 400px;
+      width: 400px;
+      padding-top: 50px;
+    }
+
+    .green {
+      width: 200px;
+      text-align: center;
+      background-color: green;
+      color: white;
+      padding: 10px;
+      font-weight: 600px;
+    }
+    .large {
+      width: 420px;
+      font-size: 60px;
+      font-weight: 700;
+    }
+    .yellow {
+      padding: 10px;
+      font-weight: 600;
+      width: 130px;
+      background-color: rgb(240, 240, 5);
+      color: black;
+      text-align: center;
+    }
+    .main p {
+      font-weight: 600;
+    }
+    .items {
+      display: flex;
+      margin: 100px;
+      padding: 20px;
+      box-shadow: 0px 2px 5px grey;
+    }
+    .item1,
+    .item2,
+    .item3 {
+      display: flex;
+      gap: 20px;
+    }
+    .item1 p,
+    .item2 p,
+    .item3 p {
+      font-weight: 500;
+    }
+    h3 {
+      font-weight: 800;
+    }
+    .menu {
+      width: 100px;
+      margin-left: 600px;
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 7px;
+      font-weight: 500;
+    }
+    .explore {
+      width: 200px;
+      margin-left: 570px;
+      margin-top: 30px;
+      font-size: 20px;
+      font-weight: 750;
+    }
+    .grid3 {
+      display: flex;
+      gap: 5px;
+    }
+    .grid7 {
+      display: flex;
+      gap: 5px;
+      padding-left: 20px;
+    }
+    .grid2 {
+      display: flex;
+      flex-direction: column;
+    }
+    .grid6 {
+      display: flex;
+      flex-direction: column;
+    }
+    .grid11 {
+      display: flex;
+      flex-direction: row;
+      padding: 20px 50px;
+      gap: 5px;
+    }
+    footer {
+      padding: 40px 100px;
+      background-color: rgb(246, 220, 201);
+    }
+    .all {
+      display: flex;
+      justify-content: space-around;
+    }
+    .support2 h3 {
+      margin-bottom: 15px;
+    }
+  </style>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="logo.png" alt="" /></li>
+          <li><img class="lines" src="menu.png" alt="" /></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="part1">
+      <div class="hero">
+        <img src="hero_image.png" alt="" />
+      </div>
+      <div class="texts">
+        <div class="green">50% OFF on All Products</div>
+        <div class="main">
+          <div class="large">Enjoy Your Delicious Food</div>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="yellow">Explore Now</div>
+      </div>
+    </section>
+    <section class="part2">
+      <div class="items">
+        <div class="item1">
+          <div class="discount">
+            <img src="discount.png" alt="" />
+          </div>
+          <div class="discount1">
+            <h3>Discount Voucher</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="item2">
+          <div class="fresh">
+            <img src="fresh.png" alt="" />
+          </div>
+          <div class="fresh2">
+            <h3>Fresh Healthy Food</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="item3">
+          <div class="delivery">
+            <img src="delivery.png" alt="" />
+          </div>
+          <div class="delivery3">
+            <h3>Fresh Home Delivery</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="menu">Our Menu</div>
+    <div class="explore">Explore Our Menu</div>
+    <section class="part3">
+      <div class="grid11">
+        <div class="grid1">
+          <div class="grid2">
+            <div class="grid3">
+              <div class="grid4"><img src="grid_image1.png" alt="" /></div>
+              <div class="grid5"><img src="grid_image2.png" alt="" /></div>
+            </div>
+
+            <div class="grid7">
+              <div class="grid8"><img src="grid_image3.png" alt="" /></div>
+              <div class="grid9"><img src="grid_image4.png" alt="" /></div>
+              <div class="grid10"><img src="grid_image5.png" alt="" /></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid6">
+          <div class="grid12"><img src="grid_image6.png" alt="" /></div>
+          <div class="grid13"><img src="grid_image7.png" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="all">
+        <div class="footimg">
+          <img src="logo.png" alt="" />
+        </div>
+        <div class="links">
+          <h3>Main Links</h3>
+          <!-- <div class="linksunder"> -->
+          <div>Order Tracking</div>
+          <div>New Order</div>
+          <div>Contact Us</div>
+          <div>News & Blogs</div>
+          <!-- </div> -->
+        </div>
+        <div class="support">
+          <h3>Support</h3>
+          <div>About Us</div>
+          <div>Privacy Policy</div>
+          <div>Terms & Conditions</div>
+        </div>
+        <div class="support2">
+          <h3>Support</h3>
+          <div>
+            <input
+              type="text"
+              name=""
+              id=""
+              placeholder="Enter Your Email...."
+            />
+          </div>
+          <div>Follow Us</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
